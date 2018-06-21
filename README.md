@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Overview Custom Link](/site/overview.html)
+[Overview Custom Link](/site/overview.md)
 
 You can use the [editor on GitHub](https://github.com/jollyparamjit/test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
