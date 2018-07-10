@@ -1,0 +1,1322 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+body
+{
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 1.7em;
+	margin: 17px;
+	background-color: #ffffff;
+	border-bottom-width: 4px;
+	border-left-width: 4px;
+	border-right-width: 4px;
+	border-top-width: 4px;
+	max-width: 100%;
+	margin-top: 10px;
+}
+
+h1
+{
+	font-weight: bold;
+	margin-bottom: 8pt;
+	page-break-before: always;
+	border-bottom: solid 2px #546c7f;
+	right: 0px;
+	width: 100%;
+	left: 0px;
+	margin-top: 0pt;
+	top: 30px;
+	font-size: 13pt;
+	z-index: 6;
+	color: #25373e;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #546c7f;
+	mc-auto-number-format: 'CH:{chapnum}. ';
+}
+
+h1.NoPageBreakBefore
+{
+	page-break-before: avoid;
+	font-family: fantasy;
+}
+
+h2
+{
+	color: #25373e;
+	font-weight: bold;
+	text-align: left;
+	mc-heading-level: 2;
+	font-size: 12pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 16pt;
+	margin-bottom: 4pt;
+	page-break-before: auto;
+	mc-auto-number-format: 'CH:{chapnum}.{n+} ';
+}
+
+h2.NoPageBreakBefore
+{
+	page-break-before: avoid;
+}
+
+h2.WhatsNext
+{
+	font-variant: small-caps;
+	color: #25373e;
+	font-size: 10pt;
+	letter-spacing: 2px;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-transform: none;
+	margin-top: 2pt;
+}
+
+h3
+{
+	color: #25373e;
+	font-weight: bold;
+	text-align: left;
+	mc-heading-level: 2;
+	font-size: 12pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 16pt;
+	margin-bottom: 4pt;
+	page-break-before: auto;
+	mc-auto-number-format: 'CH:{chapnum}.{n}.{n+}  ';
+}
+
+h3.NoPageBreakBefore
+{
+	page-break-before: avoid;
+}
+
+h3.WhatsNext
+{
+	font-variant: small-caps;
+	color: #25373e;
+	font-size: 10pt;
+	letter-spacing: 2px;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-transform: none;
+	margin-top: 2pt;
+}
+
+h4
+{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #25373e;
+	mc-heading-level: 0;
+	margin-bottom: 4pt;
+	margin-top: 12pt;
+	page-break-before: avoid;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-left: 0;
+	letter-spacing: 1px;
+}
+
+h4.PageBreakBefore
+{
+	page-break-before: always;
+}
+
+h5
+{
+	color: #25373e;
+	font-size: 8.0pt;
+	font-weight: bold;
+	margin-bottom: 8pt;
+	margin-top: 8pt;
+	mc-heading-level: 0;
+	page-break-before: avoid;
+}
+
+h6
+{
+	color: #25373e;
+	mc-heading-level: 0;
+	margin: 0;
+	page-break-before: avoid;
+}
+
+hr
+{
+	background-color: #546c7f;
+	height: 1px;
+	border-bottom-color: #546c7f;
+}
+
+p.PrefaceTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 36pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+p.Para1
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 11pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.AppendixNumber
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'A:Appendix {A+}{ =0}{ =0}{ =0}{ =0}{ =0}{ =0}';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	text-indent: 0px;
+	line-height: 16pt;
+	text-decoration: none;
+}
+
+p.AppendixTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 36pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+p.ChapterNumber
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'C:Chapter {n+}{ =0}{ =0}{ =0}{ =0}{ =0}{ =0}';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	text-indent: 0px;
+	line-height: 16pt;
+	text-decoration: none;
+}
+
+p.ChapterTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 36pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+p.Bullet1
+{
+	text-align: left;
+	margin-left: 0.25in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 11pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'n ';
+	mc-auto-number-position: outside-head;
+	mc-auto-number-offset: 24px;
+	mc-auto-number-class: DingbatsSmall;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.CellHeading
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 11pt;
+	font-family: 'ITC Franklin Gothic Book';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 9pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11pt;
+	text-decoration: none;
+}
+
+p.CellBody
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 4pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 8.5pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 10pt;
+	text-decoration: none;
+}
+
+p.ExampleCode
+{
+	color: #546C7F;
+	border-bottom: solid 1px #BECFDC;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	font-family: 'Courier New';
+	text-align: left;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #becfdc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #becfdc;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #becfdc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #becfdc;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+
+p.ExampleCode2
+{
+	color: #546C7F;
+	border-bottom: solid 1px #BECFDC;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-bottom-left-border-radius: 6px;
+	-webkit-bottom-right-border-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	font-family: 'Courier New';
+	margin-top: 0pt;
+	text-align: left;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #becfdc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #becfdc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #BECFDC;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+	padding-bottom: 14px;
+	background-color: #ddedfe;
+}
+
+p.ExampleCode3
+{
+	color: #546C7F;
+	border-top: solid 1px #BECFDC;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-top-left-border-radius: 6px;
+	-webkit-top-right-border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin-bottom: 0pt;
+	text-align: left;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #becfdc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #becfdc;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #BECFDC;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 14px;
+	padding-bottom: 6px;
+	background-color: #ddedfe;
+}
+
+p.ExampleHead
+{
+	font-variant: small-caps;
+	border-top: solid 1px #BECFDC;
+	border-left: solid 1px #BECFDC;
+	border-right: solid 1px #BECFDC;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-top-left-border-radius: 6px;
+	-webkit-top-right-border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin-bottom: 0pt;
+	letter-spacing: 5px;
+	mc-heading-level: 0;
+	margin-top: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-transform: none;
+	color: #546C7F;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 14px;
+	padding-bottom: 6px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #BECFDC;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #BECFDC;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #BECFDC;
+	font-size: 18px;
+	background-color: #ddedfe;
+}
+
+p.ExampleHead2
+{
+	border-top: solid 1px #BECFDC;
+	border-left: solid 1px #BECFDC;
+	border-right: solid 1px #BECFDC;
+	font-variant: small-caps;
+	letter-spacing: 5px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-top-left-border-radius: 6px;
+	-webkit-top-right-border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	mc-heading-level: 0;
+	margin-top: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	color: #546C7F;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #BECFDC;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #BECFDC;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #BECFDC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #BECFDC;
+	border-bottom: solid 1px #BECFDC;
+	font-size: 18px;
+	background-color: #ddedfe;
+}
+
+p.ExampleHeadPageBreakBefore
+{
+	font-variant: small-caps;
+	border-top: solid 1px #BECFDC;
+	border-left: solid 1px #BECFDC;
+	border-right: solid 1px #BECFDC;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-top-left-border-radius: 6px;
+	-webkit-top-right-border-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	margin-bottom: 0pt;
+	letter-spacing: 5px;
+	mc-heading-level: 0;
+	margin-top: 6pt;
+	page-break-before: always;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	text-transform: none;
+	color: #546C7F;
+	font-weight: bold;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 14px;
+	padding-bottom: 6px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #BECFDC;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #BECFDC;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #BECFDC;
+	font-size: 18px;
+	background-color: #ddedfe;
+}
+
+p.ExampleIndented
+{
+	color: #546C7F;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #becfdc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #becfdc;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #becfdc;
+	margin-top: 0pt;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-bottom-left-border-radius: 6px;
+	-webkit-bottom-right-border-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	padding: 14px 20px;
+	padding-left: 44px;
+	padding-top: 6px;
+	background-color: #ddedfe;
+}
+
+p.Example3Indented
+{
+	color: #546C7F;
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #becfdc;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #becfdc;
+	padding-left: 44px;
+	padding-right: 6px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #ddedfe;
+}
+
+p.Figure
+{
+	mc-auto-number-format: '{b}Figure {chapnum}-{n+}{/b}';
+}
+
+p.Note
+{
+	text-align: left;
+	margin-left: 1.5in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-decoration: none;
+	font-size: 10pt;
+	line-height: 10pt;
+	text-indent: -144px;
+}
+
+p.NoteBestPractice
+{
+	text-align: left;
+	margin-left: 1.5in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: -144px;
+	text-decoration: none;
+	font-size: 10pt;
+	line-height: 11.5pt;
+}
+
+p.NoteCaution
+{
+	text-align: left;
+	margin-left: 1.5in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: -144px;
+	text-decoration: none;
+	font-size: 10pt;
+	line-height: 11.5pt;
+}
+
+p.NoteTip
+{
+	text-align: left;
+	margin-left: 1.5in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: -144px;
+	text-decoration: none;
+	font-size: 10pt;
+	line-height: 11.5pt;
+}
+
+p.NoteWarning
+{
+	text-align: left;
+	margin-left: 1.5in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: -144px;
+	text-decoration: none;
+	font-size: 10pt;
+	line-height: 11.5pt;
+}
+
+p.ProductFamily
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Book';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #000000;
+	text-indent: 0px;
+	line-height: 16pt;
+	text-decoration: none;
+}
+
+p.BookTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Book';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 18pt;
+	letter-spacing: 0em;
+	color: #000000;
+	text-indent: 0px;
+	line-height: 26pt;
+	text-decoration: none;
+}
+
+p.Release
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Usherwood Book';
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15pt;
+	letter-spacing: 0em;
+	color: #000000;
+	text-indent: 0px;
+	line-height: 18pt;
+	text-decoration: none;
+}
+
+p.TrademarksSplit
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 7pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 7pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 7.5pt;
+	text-decoration: none;
+}
+
+p.Trademarks
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 7pt;
+	font-family: 'Usherwood Book';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 7pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 7.5pt;
+	text-decoration: none;
+}
+
+p.FrontTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 36pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	letter-spacing: 0em;
+	color: #000000;
+	text-indent: 0px;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+p.PrefaceTitleTOC
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 2pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.PartNumberTOC
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 34pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 9pt;
+	text-decoration: none;
+}
+
+p.PartTitleTOC
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 2pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 12pt;
+	text-decoration: none;
+}
+
+p.ChapterNumberTOC
+{
+	text-align: right;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.ChapterTitleTOC
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 2pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.AppendixNumberTOC
+{
+	text-align: right;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.AppendixTitleTOC
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 2pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.IndexTitleTOC
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 2pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 11.5pt;
+	text-decoration: none;
+}
+
+p.ListTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 36pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	letter-spacing: 0em;
+	color: #000000;
+	text-indent: 0px;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+p.PartNumber
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	mc-auto-number-format: 'P:Part {n+}{ =0}{ =0}{ =0}{ =0}{ =0}{ =0}';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	text-indent: 0px;
+	line-height: 16pt;
+	text-decoration: none;
+}
+
+p.PartTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 36pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+p.IndexTitle
+{
+	text-align: left;
+	margin-left: 0in;
+	margin-right: 0in;
+	margin-top: 0pt;
+	margin-bottom: 36pt;
+	font-family: 'ITC Franklin Gothic Med';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 24pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+p.Figure
+{
+	mc-auto-number-format: '{b}Figure {chapnum}-{n+}: {/b}';
+}
+
+p.TableColumnHead
+{
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+
+p.TableText
+{
+	color: #000000;
+	margin-bottom: 2pt;
+	margin-top: 8pt;
+	bottom: 12px;
+	top: 12px;
+}
+
+p.TableTextBold
+{
+	font-weight: bold;
+	margin-bottom: 2pt;
+	bottom: 18px;
+	top: 18px;
+}
+
+p.TableTextBoldIndentedSmall
+{
+	font-size: 8pt;
+	font-style: normal;
+	font-weight: bold;
+	margin-bottom: 2pt;
+	margin-left: 18pt;
+}
+
+p.TableTextCenter
+{
+	margin-bottom: 2pt;
+	bottom: 12px;
+	top: 12px;
+	text-align: center;
+}
+
+p.TableTextRight
+{
+	bottom: 12px;
+	margin-bottom: 2pt;
+	text-align: right;
+	top: 12px;
+}
+
+td
+{
+	margin-bottom: 8pt;
+	vertical-align: top;
+	margin-left: 8pt;
+	margin-right: 8pt;
+	margin: 8pt;
+	margin-top: 8pt;
+}
+
+th
+{
+	margin-bottom: 8pt;
+	margin-left: 0pt;
+	margin-top: 8pt;
+	background-color: #00956d;
+	color: #ffffff;
+}
+
+thpagehead
+{
+	margin-bottom: 8pt;
+	margin-left: 0pt;
+	margin-top: 8pt;
+}
+
+tr
+{
+	page-break-inside: avoid;
+	padding-left: 4px;
+}
+
+@media print
+{
+	body
+	{
+		font-family: Verdana;
+	}
+
+	p.Figure
+	{
+		page-break-after: avoid;
+	}
+
+	pre.grey
+	{
+		background-color: #dcdcdc;
+		border-top-color: #000000;
+		border-bottom: solid 1px #000000;
+		border-top: solid 1px;
+	}
+
+	p.nopagebreak
+	{
+		page-break-inside: avoid;
+		page-break-before: avoid;
+		page-break-after: avoid;
+		orphans: 5;
+	}
+
+	h3
+	{
+		mc-heading-level: 0;
+	}
+
+	p.TOC3
+	{
+		display: block;
+		visibility: hidden;
+		mc-heading-level: 0;
+	}
+
+	p.MiniTOC3
+	{
+		font-size: 11pt;
+		font-weight: bold;
+		margin: 0.75em;
+		margin-bottom: 4pt;
+		margin-left: 0pt;
+		margin-right: 0pt;
+		margin-top: 12pt;
+		mc-heading-level: 3;
+	}
+
+	p.MiniTOC2
+	{
+		mc-heading-level: 2;
+	}
+
+	p.MiniTOC1
+	{
+		mc-heading-level: 1;
+	}
+
+	h2
+	{
+		mc-toc-depth: 2;
+	}
+
+	h1
+	{
+		mc-toc-depth: 1;
+	}
+
+	MadCap|miniTocProxy
+	{
+		mc-heading-level: 3;
+		visibility: visible;
+	}
+
+	MadCap|miniTocProxy.otguide
+	{
+		visibility: visible;
+	}
+
+	MadCap|tocProxy.mini
+	{
+		mc-toc-depth: 3;
+	}
+
+	h3.miniTOC
+	{
+		mc-heading-level: 3;
+	}
+
+	MadCap|tocProxy.main
+	{
+		mc-toc-depth: 2;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top-style: none;
+	}
+
+	h1.TOCtitle
+	{
+		mc-heading-level: 0;
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{quote}{paratext}{quote} {pageref}';
+	}
+}
+
+caption
+{
+	mc-auto-number-format: '{b}Table {chapnum}-{n+}: {/b}';
+	text-align: left;
+	display: none;
+}
+
+MadCap|xref
+{
+	mc-format: '{paratext}';
+}
+
+tr.Test
+{
+	background-color: #ffff00;
+}
+
+th.test
+{
+	text-align: left;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+MadCap|variable
+{
+	text-align: right;
+}
+
+MadCap|xref.figure
+{
+	mc-format: '{chapnum}-{paranum}';
+}
+
+td.footer
+{
+	
+}
+
+td.header
+{
+	text-align: right;
+}
+
+pre
+{
+	mc-hyphenate: never;
+}
+
+MadCap|xref.pageref
+{
+	mc-format: '{quote}{paratext}{quote} {pageref}';
+}
+
+MadCap|miniTocProxy.otguide
+{
+	mc-toc-depth: 3;
+}
+
+@media non-print
+{
+	h1.TOCtitle
+	{
+		mc-heading-level: 0;
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{paratext}';
+	}
+}
+
+p.TOC3
+{
+	mc-auto-number-format: 'CH: Chapter {chapnum}-';
+}
+
+h1.TOCtitle
+{
+	font-weight: bold;
+	margin-bottom: 8pt;
+	page-break-before: always;
+	border-bottom: solid 2px #546c7f;
+	right: 0px;
+	width: 100%;
+	left: 0px;
+	margin-top: 0pt;
+	top: 30px;
+	font-size: 13pt;
+	z-index: 6;
+	color: #25373e;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #546c7f;
+	mc-auto-number-format: ' ';
+}
+
