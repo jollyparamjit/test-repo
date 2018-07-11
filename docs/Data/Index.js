@@ -1,1 +1,1 @@
-define({numchunks:1,prefix:'Index_Chunk',terms:[]});
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Bulleted lists',c:0,$:1},{t:'Conditions',c:0,$:0},{t:'Cross-references',c:0,$:1},{t:'Examples',c:0,$:1},{t:'Footnotes',c:0,$:1},{t:'Hyperlinks',c:0,$:1},{t:'Images',c:0,$:0},{t:'Links',c:0,$:1},{t:'Lists',c:0,$:0},{t:'Multi-level lists',c:0,$:1},{t:'Notes',c:0,$:1},{t:'Numbered lists',c:0,$:1},{t:'Popups',c:0,$:1},{t:'Quotations',c:0,$:1},{t:'Tables',c:0,$:0},{t:'Text hyperlinks',c:0,$:1},{t:'Thumbnail images',c:0,$:1}]});

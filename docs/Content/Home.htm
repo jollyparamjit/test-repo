@@ -18,7 +18,8 @@
         <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
         <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
         <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
-        <link href="Resources/Stylesheets/Online-dashboard-StylesForHomePage.css" rel="stylesheet" />
+        <link href="Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+        <link href="Resources/Stylesheets/StylesForHomePage.css" rel="stylesheet" />
         <script src="../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../Resources/Scripts/jquery.min.js">
@@ -45,76 +46,165 @@
                     <div>
                         <nav class="title-bar tab-bar" data-mc-ignore="true">
                             <div class="middle title-bar-section outer-row clearfix">
-                                <div class="relative clearfix"><a class="logo selected" href="#" alt="Logo"></a>
-                                    <div class="navigation-wrapper nocontent">
-                                        <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
-                                            <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                <div class="menu-icon-container relative clearfix">
                                     <button class="menu-icon" data-toggle="offCanvas"><span></span>
                                     </button>
                                 </div>
                             </div>
-                            <div class="nav-search row outer-row">
-                                <form class="search" action="#">
-                                    <div class="search-bar search-bar-container needs-pie">
-                                        <input class="search-field needs-pie" type="search" placeholder="Search" />
-                                        <div class="search-filter-wrapper">
-                                            <div class="search-filter">
-                                                <div class="search-filter-content">
-                                                    <ul>
-                                                        <li>All Files</li>
-                                                    </ul>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo selected" href="#" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                <div class="search-filter-wrapper">
+                                                    <div class="search-filter">
+                                                        <div class="search-filter-content">
+                                                            <ul>
+                                                                <li>All Files</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search">
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="search-submit-wrapper" dir="ltr">
-                                            <div class="search-submit" title="Search">
-                                            </div>
-                                        </div>
+                                        </form>
                                     </div>
-                                </form>
+                                </div>
                             </div>
                         </nav>
                     </div>
                     <section class="main-section">
-                        <div class="row outer-row" data-mc-content-body="True">
-                            <div id="contentBody" class="off-canvas-main">
-                                <div class="topichero">
-                                    <div class="title-text">
-                                        <div class="HomeHeroSection">
-                                            <div class="centered-text">
-                                                <h1 class="whiteheader">Welcome to <span class="MyVariablesProdName-Short">User Management</span> Online Help
+                        <div class="row outer-row sidenav-layout">
+                            <div class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="body-container" data-mc-content-body="True">
+                                <div id="contentBody">
+                                    <div class="topichero">
+                                        <div>
+                                            <div class="HomeHeroSection">
+                                                <div class="centered-text">
+                                                    <h1 class="whiteheader">Welcome to User Management Online Help
 						</h1>
-                                                <h2 class="whiteheader">This includes reference and task-based help content <br />to quickly get started with <span class="MyVariablesProdName-Short">User Management</span> UI.</h2>
-                                                <form class="search" action="#">
-                                                    <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
-                                                        <input class="search-field needs-pie" type="search" placeholder="Search" />
-                                                        <div class="search-filter-wrapper">
-                                                            <div class="search-filter">
-                                                                <div class="search-filter-content">
-                                                                    <ul>
-                                                                        <li>All Files</li>
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="search-submit-wrapper" dir="ltr">
-                                                            <div class="search-submit" title="Search">
+                                                    <h2 class="whiteheader">The Place to Find Information, Tutorials, FAQs, and More</h2>
+                                                </div>
+                                            </div>
+                                            <form class="search" action="#">
+                                                <div class="search-bar search-bar-container needs-pie _Skins_HomeSearchBar mc-component">
+                                                    <input class="search-field needs-pie" type="search" placeholder="Search" />
+                                                    <div class="search-filter-wrapper">
+                                                        <div class="search-filter">
+                                                            <div class="search-filter-content">
+                                                                <ul>
+                                                                    <li>All Files</li>
+                                                                </ul>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </form>
+                                                    <div class="search-submit-wrapper" dir="ltr">
+                                                        <div class="search-submit" title="Search">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="slidingshow">
+                                        <div class="mc-wrapper-outer ">
+                                            <div id="MCSlider1" class="MCSlider " data-mc-slides-displayed="3" data-mc-adaptive-height="True" data-mc-navigation="None" data-mc-show-captions="True">
+                                                <div class="MCSlide slideshow" title="Getting Started">
+                                                    <p><a href="Overview/Getting Started.htm"><img src="Resources/Images/KeyFeatures.png" alt="" class="Slideshow" /></a>
+                                                    </p>
+                                                </div>
+                                                <div class="MCSlide slideshow" title="Basic Steps">
+                                                    <p><a href="Overview/Basic Steps.htm"><img src="Resources/Images/BasicSteps.png" alt="" class="Slideshow" /></a>
+                                                    </p>
+                                                </div>
+                                                <div class="MCSlide slideshow" title="What's New">
+                                                    <p><a href="Overview/Whats New.htm"><img src="Resources/Images/WhatsNew.png" alt="" class="Slideshow" /></a>
+                                                    </p>
+                                                </div>
+                                                <div class="MCSlide slideshow" title="FAQs">
+                                                    <p>
+                                                        <img src="Resources/Images/FAQs.png" alt="" class="Slideshow" />
+                                                    </p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="footer center">
-                                    <div class="HomeMasterPageFooter outer-row">
-                                        <div>&#160;</div>
-                                        <div>
-                                            <p>Copyright © 2018</p>
+                                    <div id="content-section" class="mc-blurb">
+                                        <div class="HomeWelcomePDFSection outer-row">
+                                            <div class="left-section">
+                                                <div class="left-content">
+                                                    <h2 class="SubCenter">Meet <span class="GeneralProductName">FictionSoft</span></h2>
+                                                    <p><span class="GeneralProductName">FictionSoft</span> gives you the following: </p>
+                                                    <ul class="mc-bullets">
+                                                        <li value="1">State-of-the-art interface</li>
+                                                        <li value="2">Quality widgets</li>
+                                                        <li value="3">Fun for the whole family</li>
+                                                        <li value="4">Flexible, easy to use, and quite pretty</li>
+                                                        <li value="5">Full support for this, that, and the other thing</li>
+                                                        <li value="6">No batteries required</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="button-group center HomeWelcomeButtons">
+                                                    <div class="button"><a href="Overview/Getting Started.htm" class="BlackText">Where Do I Begin?</a>
+                                                    </div>
+                                                    <div class="button"><a href="Overview/Basic Steps.htm" class="BlackText">Basic Steps</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="right-section">
+                                                <div class="right-content">
+                                                    <h2 class="SubCenter">PDF Guides</h2>
+                                                    <div class="table-images center HomePDFSection">
+                                                        <div><a href="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" target="_blank"><img src="Resources/Images/PDF Cover.png" class="Hyperlinked" /></a>
+                                                        </div>
+                                                        <div><a href="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" target="_blank"><img src="Resources/Images/PDF Cover.png" class="Hyperlinked" /></a>
+                                                        </div>
+                                                        <div><a href="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" target="_blank"><img src="Resources/Images/PDF Cover.png" class="Hyperlinked" /></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="table-images center HomePDFSection">
+                                                        <div><a href="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" target="_blank"><img src="Resources/Images/PDF Cover.png" class="Hyperlinked" /></a>
+                                                        </div>
+                                                        <div><a href="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" target="_blank"><img src="Resources/Images/PDF Cover.png" class="Hyperlinked" /></a>
+                                                        </div>
+                                                        <div><a href="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" target="_blank"><img src="Resources/Images/PDF Cover.png" class="Hyperlinked" /></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="button-group center HomePDFButton">
+                                                    <div class="button">View More PD</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="footer center">
+                                        <div class="HomeMasterPageFooter outer-row">
+                                            <div><a href="#"><img src="Resources/Images/CompanyLogo.png" alttext="" class="Hyperlinked footer-logo" /></a>
+                                            </div>
+                                            <div>
+                                                <div class="footer-links">PDFsTipsFAQsCompany</div>
+                                                <p class="Copyright">Copyright © <span class="GeneralYear">2018</span> <span class="GeneralCompanyName">My Company Name, LLC</span></p>
+                                            </div>
+                                            <div class="footer-icons"><a href="https://twitter.com/#!/MadCapDocTeam" target="_blank"><img src="Resources/Images/TwitterIcon.png" alttext="" class="Hyperlinked" /></a><a href="http://www.facebook.com/madcapdocteam" target="_blank"><img src="Resources/Images/FacebookIcon.png" alttext="" class="Hyperlinked" /></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

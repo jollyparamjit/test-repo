@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/Concepts/UM-managing-roles.htm'],s:['$'],p:[['$',8],['the',7]]});
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../Content/Features.htm'],s:['1'],p:[['1',7],['replace',18]]});
